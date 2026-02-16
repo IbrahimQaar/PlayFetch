@@ -1,4 +1,4 @@
-# 🐾 PlayFetch
+# 🐶 PlayFetch
 
 PlayFetch is a full-stack dog playdate scheduling platform that enables owners to discover compatible dogs, filter by personality and location, and manage structured play sessions through a unified dashboard.
 
