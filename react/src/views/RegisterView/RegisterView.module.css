@@ -1,0 +1,298 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(to bottom, #d48253, #192e5bc5);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.register h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #031e5cc5;
+}
+
+.formInfo {
+  border: 1rem solid #192e5b;
+  color: #192e5b;
+  background-color: #bfa262;
+  height: 100%;
+  border-radius: 16px;
+  padding: 40px;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.formControl {
+  margin: 15px auto 0 auto;
+  align-items: center;
+  font-size: 1.1rem;
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formControl label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.input,
+.select {
+  font-size: 1.2rem;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.input {
+  width: 100%;
+}
+
+.select {
+  width: 100%;
+  cursor: pointer;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  margin: 20px auto 0 auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.checkbox {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.checkboxLabel {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submitButton {
+  background-color: #192E5B;
+  color: #FFD373;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 80%;
+  max-width: 600px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.submitButton:hover {
+  background-color: #FFD373;
+  color: #192E5B;
+}
+
+.termsButton {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.loginLink {
+  margin-top: 25px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.terms {
+  max-width: 8.7in;
+  max-height: 300px;
+  overflow-y: scroll;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px auto;
+
+
+
+
+
+  .page {
+    font-family: 'Crimson Text', 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: white;
+    width: 8.5in;
+    height: 11in;
+    margin: 0 auto;
+    padding: 0.75in;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 20px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0 0 10px 0;
+    letter-spacing: 1px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    color: #7f8c8d;
+    font-style: italic;
+  }
+
+  .lastUpdated {
+    text-align: center;
+    font-size: 12px;
+    color: #95a5a6;
+    margin-bottom: 25px;
+    font-style: italic;
+  }
+
+  .intro {
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-align: justify;
+    color: #34495e;
+  }
+
+  .section {
+    margin-bottom: 25px;
+  }
+
+  .section h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 12px;
+    border-left: 4px solid #3498db;
+    padding-left: 15px;
+  }
+
+  .section p {
+    font-size: 14px;
+    text-align: justify;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+
+  .subsection {
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  .subsection h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 8px;
+  }
+
+  .emphasis {
+    font-weight: 600;
+    color: #e74c3c;
+  }
+
+  .footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #bdc3c7;
+    text-align: center;
+    font-size: 13px;
+    color: #7f8c8d;
+    font-style: italic;
+  }
+
+  .contactInfo {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .submitButton {
+    background-color: #192E5B;
+    color: #FFD373;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .submitButton:hover {
+    background-color: #CC5500;
+    color: white;
+  }
+
+
+
+
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 1000px) {
+    .page {
+      width: 100%;
+      height: auto;
+      min-height: 11in;
+      padding: 1in 0.5in;
+      box-shadow: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .page {
+      padding: 0.5in 0.25in;
+    }
+
+    .header h1 {
+      font-size: 24px;
+    }
+
+    .intro {
+      font-size: 15px;
+    }
+
+    .section h2 {
+      font-size: 16px;
+    }
+
+    .section p {
+      font-size: 13px;
+    }
+  }
+}
+

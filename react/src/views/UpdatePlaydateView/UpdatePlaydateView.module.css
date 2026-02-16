@@ -1,0 +1,86 @@
+.full-update-playdate {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: auto;
+    background: linear-gradient(to bottom, #cc4b00e5, #192e5bc5); 
+    height: 100%;
+}
+
+.update-playdate-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    width: 50%;
+    background: #FFD373;
+    color: #192e5b;
+    border-radius: 16px;
+    border: #192E5B .5rem solid;
+}
+
+.full-update-playdate h2 {
+    color: #192e5b;
+    font-size: 50px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.date {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.date-input {
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.date-label {
+    margin: 0 auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 10px;
+    display: block;
+}
+
+.time {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.time-input {
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.time-label {
+    margin: 0 auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 10px;
+    display: block;
+}
+
+.btn-playdates {
+    color: #FFD373;
+    padding: 0;
+    text-decoration: none;
+}
+
+.btn {
+    margin: 0 auto;
+    margin-top: 75px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+    background-color: #cc5000;
+    color: white;
+}

@@ -1,0 +1,248 @@
+body {
+  font-family: "Lato", "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainGrid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f4e9dc;
+  font-family: "Inter", "Lato", Arial, sans-serif;
+}
+
+/* ===============================
+   HERO SECTION
+================================ */
+.hero {
+  height: 80vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../../assets/JoyfulGolden.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.heroContent {
+  max-width: 680px;
+  margin-left: 6%;
+  color: #ffffff;
+}
+
+.heroContent h1 {
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.heroContent p {
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 36px;
+  color: #f1f5f9;
+}
+
+.heroActions {
+  display: flex;
+  gap: 20px;
+}
+
+.primaryBtn {
+  background-color: #ff8c42;
+  color: #000000;
+  padding: 17px 52px;
+  border-radius: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.primaryBtn:hover {
+  background-color: #ff7a26;
+}
+
+.secondaryBtn {
+  color: #000000;
+  padding: 17px 52px;
+  border-radius: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+}
+
+.secondaryBtn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ===============================
+   ABOUT US
+================================ */
+.row2 {
+  background-color: #192e5b;
+  padding: 13px 20px;
+  text-align: center;
+}
+
+.row2 h2 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about {
+  max-width: 1100px;
+  margin: auto;
+  color: #f1f5f9;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+/* ===============================
+   JOIN CTA
+================================ */
+.rowJoin {
+  background-color: #192e5b;
+  text-align: center;
+  padding: 40px;
+}
+
+.btn {
+  background-color: #ff8c42;
+  color: white;
+  padding: 16px 36px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ff7a26;
+}
+
+/* ===============================
+   DOG FACTS
+================================ */
+.factsSection {
+  background-color: #f9d7a3;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.factsHeader {
+  font-size: 28px;
+  color: #192e5b;
+}
+
+.factsImage {
+  width: 70%;
+  max-width: 900px;
+  border-radius: 20px;
+  margin: 30px 0;
+}
+
+.factsText {
+  max-width: 800px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* ===============================
+   FEATURES
+================================ */
+.featureSection {
+  background-color: #192e5b;
+  padding: 70px 40px;
+  text-align: center;
+}
+
+.featureHeader {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 14px;
+  padding: 28px;
+  text-align: left;
+}
+
+.card h3 {
+  color: #192e5b;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.parkImage,
+.petImage,
+.tipImage {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+/* ===============================
+   RESPONSIVE HERO & CONTENT
+================================ */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .heroContent {
+    margin-left: 0;
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  .heroContent h1 {
+    font-size: 42px;
+  }
+
+  .heroContent p {
+    font-size: 18px;
+  }
+
+  .heroActions {
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    justify-content: center;
+    width: 100%;
+    padding: 16px 0;
+  }
+
+  .factsImage {
+    width: 100%;
+  }
+}

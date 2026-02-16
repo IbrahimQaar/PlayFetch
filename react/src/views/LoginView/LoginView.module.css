@@ -1,0 +1,143 @@
+/* ===============================
+   PAGE LAYOUT
+================================ */
+.viewLogin {
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 120px;
+  background-color: #f9d7a3;
+
+  font-family: "Inter", "Lato", Arial, sans-serif;
+}
+
+/* ===============================
+   TITLE
+================================ */
+.viewLogin h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 40px;
+}
+
+/* ===============================
+   FORM
+================================ */
+.viewLogin form {
+  width: 100%;
+  max-width: 420px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* ===============================
+   FORM CONTROL
+================================ */
+.formControl {
+  display: flex;
+  flex-direction: column;
+}
+
+/* LABEL */
+.formControl label {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* INPUTS — NO BOX */
+.username,
+.password {
+  border: none;
+  border-bottom: 2px solid #cbd5e1;
+  padding: 10px 4px;
+
+  font-size: 17px;
+  background: transparent;
+  color: #0f172a;
+
+  transition: border-color 0.25s ease;
+}
+
+.username::placeholder,
+.password::placeholder {
+  color: #94a3b8;
+}
+
+/* FOCUS STATE */
+.username:focus,
+.password:focus {
+  outline: none;
+  border-bottom-color: #2563eb;
+}
+
+/* ===============================
+   BUTTON
+================================ */
+.btnPrimary {
+  margin-top: 10px;
+
+  background: none;
+  border: none;
+  border-bottom: 2px solid #2563eb;
+
+  padding: 12px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2563eb;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btnPrimary:hover {
+  color: #1d4ed8;
+  border-bottom-color: #1d4ed8;
+}
+
+/* ===============================
+   REGISTER LINK
+================================ */
+.viewLogin a {
+  margin-top: 16px;
+  text-align: center;
+
+  font-size: 15px;
+  font-weight: 500;
+  color: #475569;
+  text-decoration: none;
+}
+
+.viewLogin a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* ===============================
+   NOTIFICATION SPACING
+================================ */
+.viewLogin > div {
+  max-width: 420px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+/* ===============================
+   MOBILE
+================================ */
+@media (max-width: 480px) {
+  .viewLogin {
+    padding-top: 80px;
+  }
+
+  .viewLogin h2 {
+    font-size: 36px;
+  }
+}

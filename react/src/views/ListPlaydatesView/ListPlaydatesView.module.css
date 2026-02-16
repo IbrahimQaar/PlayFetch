@@ -1,0 +1,138 @@
+/* ===============================
+   PAGE FOUNDATION
+================================ */
+.fullPlaydateList {
+  min-height: 100vh;
+  background: #f9d7a3;
+  padding: 40px 24px;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  color: #1f2937;
+}
+
+/* ===============================
+   PAGE TITLE
+================================ */
+.fullPlaydateList h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 40px;
+}
+
+/* ===============================
+   PLAYDATE GRID
+================================ */
+.playCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 28px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ===============================
+   PLAYDATE CARD
+================================ */
+.playdateCard {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.playdateCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.12);
+}
+
+/* ===============================
+   CARD HEADER
+================================ */
+.playdateCard h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+/* ===============================
+   CARD DETAILS
+================================ */
+.playdateCard p {
+  font-size: 18px;
+  color: #475569;
+  line-height: 1.5;
+}
+
+/* ===============================
+   STATUS EMPHASIS
+================================ */
+.playdateCard p:last-of-type {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+/* ===============================
+   BUTTON GROUP
+================================ */
+.playButtons {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+.btn {
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #1e40af;
+}
+
+.edit {
+  color: #fff4f4;
+  text-decoration: none;
+}
+
+/* ===============================
+   EMPTY STATE
+================================ */
+.playdateCard a {
+  color: #fcfdff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.playdateCard a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 768px) {
+  .fullPlaydateList {
+    padding: 28px 16px;
+  }
+
+  .fullPlaydateList h2 {
+    font-size: 28px;
+  }
+}

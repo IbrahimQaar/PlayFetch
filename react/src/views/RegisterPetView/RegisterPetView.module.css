@@ -1,0 +1,284 @@
+/* ===============================
+   PAGE FOUNDATION
+================================ */
+.register {
+  min-height: 100vh;
+  background-color: #f9d7a3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  color: #1f2937;
+}
+
+/* ===============================
+   PAGE TITLE
+================================ */
+.register h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* ===============================
+   FORM CONTAINER
+================================ */
+.register form {
+  width: 100%;
+  max-width: 1100px;
+  background: #ffffff;
+  padding: 40px;
+  border: 1px solid #e5e7eb;
+}
+
+/* ===============================
+   BASIC INFO GRID
+================================ */
+.inputContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-bottom: 60px;
+}
+
+.inputContainer div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Full width rows */
+.inputContainer div:nth-child(4),
+.inputContainer div:nth-child(5),
+.inputContainer div:nth-child(6) {
+  grid-column: span 2;
+}
+
+/* ===============================
+   CENTERED FIELD (Play Setting + Upload)
+================================ */
+.centeredField {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.centeredField label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #334155;
+  text-align: center;
+}
+
+.centeredField select {
+  width: 260px;
+  text-align: center;
+  padding: 12px 14px;
+  font-size: 18px;
+  border: 1px solid #cbd5f5;
+  background: #ffffff;
+  color: #0f172a;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.centeredField select:focus {
+  border-color: #2563eb;
+}
+
+.centeredField select option {
+  text-align: center;
+}
+
+/* ===============================
+   LABELS
+================================ */
+.inputContainer label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #334155;
+}
+
+/* ===============================
+   INPUTS
+================================ */
+.inputContainer input,
+.inputContainer textarea,
+.inputContainer select {
+  padding: 12px 14px;
+  font-size: 18px;
+  border: 1.8px solid #cbd5f5;
+  font-size: 18px;
+  border-radius: 19px;
+  background: #ffffff;
+  color: #0f172a;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.inputContainer input:focus,
+.inputContainer textarea:focus,
+.inputContainer select:focus {
+  border-color: #2563eb;
+}
+
+.bioInput {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* ===============================
+   UPLOAD BUTTON
+================================ */
+.uploadButton {
+  width: fit-content;
+  padding: 10px 22px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.uploadButton:hover {
+  background-color: #1e40af;
+}
+
+/* ===============================
+   PERSONALITY SECTION
+================================ */
+.checkboxContainer {
+  margin-top: 40px;
+}
+
+/* Section heading */
+.checkboxContainer h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  color: #0f172a;
+  line-height: 1.5;
+}
+
+/* ===============================
+   PERSONALITY GRID
+================================ */
+.personalitySection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+/* Personality block */
+.personalitySection > div {
+  border-top: 4px solid #2563eb;
+  padding-top: 20px;
+}
+
+/* Title */
+.personalitySection label p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+/* Text */
+.personalitySection label {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #475569;
+}
+
+/* Checkbox */
+.personalitySection input[type="checkbox"] {
+  margin-top: 14px;
+  width: 18px;
+  height: 18px;
+  accent-color: #2563eb;
+  cursor: pointer;
+}
+
+/* ===============================
+   SAFETY CONFIRMATION
+================================ */
+.checkBox {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.checkBox h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+
+.checkBox label {
+  font-size: 14px;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.checkBox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #2563eb;
+}
+
+/* ===============================
+   SUBMIT BUTTON
+================================ */
+.submitButton {
+  margin: 0 auto;
+  display: block;
+  padding: 14px 48px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submitButton:hover {
+  background-color: #1e40af;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 900px) {
+  .inputContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .centeredField {
+    grid-column: span 1;
+  }
+
+  .personalitySection {
+    grid-template-columns: 1fr;
+  }
+
+  .register form {
+    padding: 32px;
+  }
+}
