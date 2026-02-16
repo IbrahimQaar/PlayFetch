@@ -15,7 +15,7 @@ export default function HomeView() {
           </p>
 
           <div className={styles.heroActions}>
-            <NavLink to="/playdates" className={styles.primaryBtn}>
+            <NavLink to="/pets" className={styles.primaryBtn}>
               Find a Playdate
             </NavLink>
 
