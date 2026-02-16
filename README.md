@@ -1,4 +1,5 @@
 # 🐶 PlayFetch
+### Full-Stack Scheduling Platform | Java Spring Boot • React • PostgreSQL
 
 PlayFetch is a full-stack dog playdate scheduling platform that enables owners to discover compatible dogs, filter by personality and location, and manage structured play sessions through a unified dashboard. The system is designed around behavioral compatibility, location-aware discovery, and structured scheduling to support safe, real-world social interactions.
 
