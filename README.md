@@ -8,10 +8,15 @@ The system is designed around behavioral compatibility, location-aware discovery
 
 ## 📸 Screenshots
 
-* Home
-* Search & Filter
-* Playdate Dashboard
-* Mobile View
+<img width="1511" height="861" alt="Image" src="https://github.com/user-attachments/assets/dd748ce6-b224-486d-b003-64ada8ddcdc3" />
+
+<img width="1509" height="860" alt="Image" src="https://github.com/user-attachments/assets/e12130c3-dfe6-4f46-9f95-cf3555c63592" />
+
+<img width="1512" height="862" alt="Image" src="https://github.com/user-attachments/assets/c882bf95-d16d-48a3-90a2-c2349e455d41" />
+
+<img width="1512" height="863" alt="Image" src="https://github.com/user-attachments/assets/d2b9f6b1-2e98-4ec8-b57e-4da32428d038" />
+
+<img width="1511" height="862" alt="Image" src="https://github.com/user-attachments/assets/5aed2e12-cd19-4ac2-ac74-a6a300c2ddd1" />
 
 ---
 
