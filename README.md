@@ -60,7 +60,7 @@ The system emphasizes modular design, maintainability, and clean separation of c
 ## Running the Application
 
 ```bash
-git clone https://github.com/IbrahimQaar/PlayFetch.git
+git clone https://github.com/IbrahimQaar/playfetch-dog-playdate-platform
 cd PlayFetch
 ```
 
