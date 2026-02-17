@@ -83,8 +83,7 @@ Configure PostgreSQL credentials in `application.properties` before starting the
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-**Ibrahim Qaar**
-Full-Stack Java & React Developer
+**Ibrahim Qaar** Software Engineer
 
