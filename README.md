@@ -13,7 +13,6 @@ PlayFetch is a full-stack dog playdate scheduling platform that enables owners t
 <img width="1512" height="862" alt="Dashboard" src="https://github.com/user-attachments/assets/c882bf95-d16d-48a3-90a2-c2349e455d41" />
 
 <img width="1512" height="863" alt="Playdate Management" src="https://github.com/user-attachments/assets/d2b9f6b1-2e98-4ec8-b57e-4da32428d038" />
-
 <img width="1511" height="862" alt="Dog Profile" src="https://github.com/user-attachments/assets/5aed2e12-cd19-4ac2-ac74-a6a300c2ddd1" />
 
 ---
